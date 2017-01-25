@@ -89,74 +89,74 @@ $('.h2').on('click', function(e){
 
   //   $('#submit').click(function(){
   //     for(var i=0; i<shiftsIcanWork.length; i++){
-// var shift1=0;
-// var shift2=0;
+var shift1=0;
+var shift2=0;
 
 $('#comment-form').on('submit', function(e){
   // e.preventDefault();
 
-  var shiftssReference = database.ref('shifts');
-  shiftssReference.child('day1mon').update({
-  shift1: $('#mmon1').html(),
-  shift2: $('#mmon2').html(),
-  shift3: $('#mmon3').html(),
-  shift4: $('#mmon4').html(),
-  })
+  // var shiftssReference = database.ref('shifts');
+  // shiftssReference.child('day1mon').update({
+  // shift1: $('#mmon1').html(),
+  // shift2: $('#mmon2').html(),
+  // shift3: $('#mmon3').html(),
+  // shift4: $('#mmon4').html(),
+  // })
 
-  shiftssReference.child('day2tues').update({
-  shift1: $('#ttues1').html(),
-  shift2: $('#ttues2').html(),
-  shift3: $('#ttues3').html(),
-  shift4: $('#ttues4').html(),
-  })
+  // shiftssReference.child('day2tues').update({
+  // shift1: $('#ttues1').html(),
+  // shift2: $('#ttues2').html(),
+  // shift3: $('#ttues3').html(),
+  // shift4: $('#ttues4').html(),
+  // })
 
-  shiftssReference.child('day3wed').update({
-  shift1: $('#wwed1').html(),
-  shift2: $('#wwed2').html(),
-  shift3: $('#wwed3').html(),
-  shift4: $('#wwed4').html(),
-  })
+  // shiftssReference.child('day3wed').update({
+  // shift1: $('#wwed1').html(),
+  // shift2: $('#wwed2').html(),
+  // shift3: $('#wwed3').html(),
+  // shift4: $('#wwed4').html(),
+  // })
 
-  shiftssReference.child('day4thur').update({
-  shift1: $('#tthur1').html(),
-  shift2: $('#tthur2').html(),
-  shift3: $('#tthur3').html(),
-  shift4: $('#tthur4').html(),
-  })
+  // shiftssReference.child('day4thur').update({
+  // shift1: $('#tthur1').html(),
+  // shift2: $('#tthur2').html(),
+  // shift3: $('#tthur3').html(),
+  // shift4: $('#tthur4').html(),
+  // })
 
-  shiftssReference.child('day5fri').update({
-  shift1: $('#ffri1').html(),
-  shift2: $('#ffri2').html(),
-  shift3: $('#ffri3').html(),
-  shift4: $('#ffri4').html(),
-  })
+  // shiftssReference.child('day5fri').update({
+  // shift1: $('#ffri1').html(),
+  // shift2: $('#ffri2').html(),
+  // shift3: $('#ffri3').html(),
+  // shift4: $('#ffri4').html(),
+  // })
 
-  shiftssReference.child('day6sat').update({
-  shift1: $('#ssat1').html(),
-  shift2: $('#ssat2').html(),
-  shift3: $('#ssat3').html(),
-  })
+  // shiftssReference.child('day6sat').update({
+  // shift1: $('#ssat1').html(),
+  // shift2: $('#ssat2').html(),
+  // shift3: $('#ssat3').html(),
+  // })
 
-  shiftssReference.child('day7sun').update({
-  shift1: $('#ssun1').html(),
-  shift2: $('#ssun2').html(),
-  shift3: $('#ssun3').html(),
-  })
+  // shiftssReference.child('day7sun').update({
+  // shift1: $('#ssun1').html(),
+  // shift2: $('#ssun2').html(),
+  // shift3: $('#ssun3').html(),
+  // })
 
  // database.ref('shifts').child('mon2').set({
  //  shift1: shift1,
  //  shift2: shift2,
  // })
 
-//   database.ref('shifts').set({
-//   day1mon: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
-//   day2tues: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
-//   day3wed: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
-//   day4thur: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
-//   day5fri: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
-//   day6sat: {shift1:shift1,shift2:shift1,shift3:shift1,},
-//   day7sun: {shift1:shift1,shift2:shift1,shift3:shift1,},
-// }); 
+  database.ref('shifts').set({
+  day1mon: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
+  day2tues: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
+  day3wed: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
+  day4thur: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
+  day5fri: {shift1:shift1,shift2:shift1,shift3:shift1,shift4:shift1,},
+  day6sat: {shift1:shift1,shift2:shift1,shift3:shift1,},
+  day7sun: {shift1:shift1,shift2:shift1,shift3:shift1,},
+}); 
 
 
 });
