@@ -18,8 +18,6 @@ body {
 
 }
 
-
-
 .joedot {
 	border-top: 2px dotted rgb(169,169,169);
 	padding-top: 15px;
@@ -84,6 +82,14 @@ button.mmc {
 	color: #56392C;
 
 }
+
+
+
+button#hide {
+	border: none;
+}
+
+
 button.mmc:hover {
 	border: none;
 	padding: 5px 0px;

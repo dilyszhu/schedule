@@ -28,6 +28,11 @@ body {
 	display: none;
 }
 
+
+button#hide {
+	border: none;
+}
+
 #joe {
 	height: 50px;
 /*	text-align: center;
