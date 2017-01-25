@@ -293,11 +293,13 @@ if (name=="Brandon") {idNumber="Brandon"}
 if (name=="Shane") {idNumber="Shane"}
 if (name=="Kate") {idNumber="Kate"}
 if (name=="Jane") {idNumber="Jane"}
-if (name=="Jenn") {idNumber="Jenn"}
+if (name=="Jennifer") {idNumber="Jennifer"}
 if (name=="Natalie") {idNumber="Natalie"}
 if (name=="Florrie") {idNumber="Florrie"}
 if (name=="Alexis") {idNumber="Alexis"}
 if (name=="Alex") {idNumber="Alex"}
+if (name=="Maxwell") {idNumber="Maxwell"}
+
 
 
 
