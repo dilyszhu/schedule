@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
-var config = {
-    apiKey: "AIzaSyAILvRIFRKLpEeCCdsrp0pA3wK8XaYpGLM",
-    authDomain: "joeschedule-b8ec6.firebaseapp.com",
-    databaseURL: "https://joeschedule-b8ec6.firebaseio.com",
-    storageBucket: "joeschedule-b8ec6.appspot.com",
-    messagingSenderId: "86088003878"
+  var config = {
+    apiKey: "AIzaSyCi2Fp0Wu6uIDrql0loXugp_UhYdNtbGoI",
+    authDomain: "week1-fa61d.firebaseapp.com",
+    databaseURL: "https://week1-fa61d.firebaseio.com",
+    storageBucket: "week1-fa61d.appspot.com",
+    messagingSenderId: "670497692463"
   };
   firebase.initializeApp(config);
 
