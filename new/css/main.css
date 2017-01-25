@@ -24,7 +24,7 @@ body {
 	margin-top: 5px;
 }
 
-.hidden {
+#results.hidden {
 	visibility: hidden;
 }
 
