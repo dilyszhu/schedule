@@ -16,6 +16,12 @@ $('.shift').on('click', function(e){
   $(this).toggleClass('yes');
 });
 
+$('#hide').on('click', function(e){
+  e.preventDefault();
+  $('#results').toggleClass('hide');
+});
+
+
 $('.mmc').on('click', function(e){
   e.preventDefault();
   if ($(this).hasClass('early')){
