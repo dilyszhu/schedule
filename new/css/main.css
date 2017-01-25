@@ -33,6 +33,9 @@ button#hide {
 	border: none;
 	color:grey;
 }
+#hide {
+	padding-top: 100px;
+}
 
 #joe {
 	height: 50px;
