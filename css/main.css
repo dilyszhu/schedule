@@ -83,13 +83,6 @@ button.mmc {
 
 }
 
-
-
-button#hide {
-	border: none;
-}
-
-
 button.mmc:hover {
 	border: none;
 	padding: 5px 0px;
