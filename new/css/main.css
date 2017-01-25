@@ -26,6 +26,8 @@ body {
 
 .hide {
 	visibility: hidden;
+		display: hidden;
+color: white;
 }
 
 #joe {
