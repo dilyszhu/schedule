@@ -31,13 +31,12 @@ body {
 
 button#hide {
 	border: none;
-	color:grey;
+	color: #f6f6f6;
 }
 
 #hide {
 	padding-top: 100px;
 	margin-top: 100px;
-
 }
 
 #joe {
