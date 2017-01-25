@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Firebase Test</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- <div  class="joedot" >
+ --><div id="weekof">WEEK OF 1&sol;30&sol;17-2&sol;5&sol;17 <a href="second.html">&gt;&gt;
+</a></div>
+<!-- </div>
+ -->
+<div class="joedot">
+<img id="joe" src="newlogo-normal.png"/>
+</div>
+
+
+<form id="comment-form">
+<section id="dot">
+
+<!-- 	<div class="date">
+	   <input id="date1" type="text" placeholder="MM/DD" size="6"> to <input id="date2" type="text" placeholder="MM/DD" size="6">
+	</div> -->
+
+	<p class="check">Check all <button class="mmc early">morning &lpar;early out&rpar;,</button> <button class="mmc late">morning &lpar;late out&rpar;, </button> <button class="mmc mid"> mid,</button> <button class="mmc clos">closing</button> shifts during which you are <span class="red">unavailable.</span></p>
+
+</section>
+
+<main>
+<section id="days">
+
+  <div class="day">
+  <button class="h2 mon1">MONDAY</button>
+  <button id="mon1" class="one yes shift">MORNING <div class="par">&lpar;EARLY OUT&rpar;</div>
+  </button>
+  <button id="mon2" class="two yes shift">MORNING <div class="par">&lpar;LATE OUT&rpar;</div>
+  </button>
+  <button id="mon3" class="three yes shift">MID
+  </button>
+  <button id="mon4" class="four yes shift">CLOSING
+  </button>
+  </div>
+
+  <div class="day">
+  <button class="h2 tues1">TUESDAY</button>
+  <button id="tues1" class="one yes shift">MORNING <div class="par">&lpar;EARLY OUT&rpar;</div>
+  </button>
+  <button id="tues2" class="two yes shift">MORNING <div class="par">&lpar;LATE OUT&rpar;</div>
+  </button>
+  <button id="tues3" class="three yes shift">MID
+  </button>  
+  <button id="tues4" class="four yes shift">CLOSING
+  </button>
+  </div>
+
+  <div class="day">
+  <button class="h2 wed1">WEDNESDAY</button>
+  <button id="wed1" class="one yes shift">MORNING <div class="par">&lpar;EARLY OUT&rpar;</div>
+  </button>
+  <button id="wed2" class="two yes shift">MORNING <div class="par">&lpar;LATE OUT&rpar;</div>
+  </button>
+  <button id="wed3" class="three yes shift">MID
+  </button>
+  <button id="wed4" class="four yes shift">CLOSING
+  </button>
+  </div>
+
+  <div class="day">
+  <button class="h2 thur1">THURSDAY</button>
+  <button id="thur1" class="one yes shift">MORNING <div class="par">&lpar;EARLY OUT&rpar;</div>
+  </button>
+  <button id="thur2" class="two yes shift">MORNING <div class="par">&lpar;LATE OUT&rpar;</div>
+  </button>
+  <button id="thur3" class="three yes shift">MID
+  </button>
+  <button id="thur4" class="four yes shift">CLOSING
+  </button>
+  </div>
+
+  <div class="day">
+  <button class="h2 fri1">FRIDAY</button>
+  <button id="fri1" class="one yes shift">MORNING <div class="par">&lpar;EARLY OUT&rpar;</div>
+  </button>
+  <button id="fri2" class="two yes shift">MORNING <div class="par">&lpar;LATE OUT&rpar;</div>
+  </button>
+  <button id="fri3" class="three yes shift">MID
+  </button>
+  <button id="fri4" class="four yes shift">CLOSING
+  </button>
+  </div>
+
+  <div class="day">
+  <button class="h2 sat1">SATURDAY</button>
+  <button id="sat1" class="weekend one yes shift">MORNING 
+  </button>
+<!--   <button id="sat2" class="two yes shift">MORNING <div class="par">&lpar;LATE OUT&rpar;</div>
+  </button>  -->
+  <button id="sat2" class="three yes shift">MID
+  </button>
+  <button id="sat3" class="four yes shift">CLOSING
+  </button>
+  </div>
+
+  <div class="day">
+  <button class="h2 sun1">SUNDAY</button>
+  <button id="sun1" class="weekend one yes shift">MORNING 
+  </button>
+<!--   <button id="sun2" class="two yes shift">MORNING <div class="par">&lpar;LATE OUT&rpar;</div>
+  </button> -->
+  <button id="sun2" class="three yes shift">MID
+  </button>
+  <button id="sun3" class="four yes shift">CLOSING
+  </button>
+  </div>
+
+  <div class="more">
+  	<textarea id="extra" name="paragraph_text" cols="198" rows="5" placeholder="Enter any preferences and comments here."></textarea>
+  </div>
+
+  <input id="name" type="text" placeholder="Enter your name here.">
+  <input type="submit" name="" id="submit">
+  <span id="aval">AVAILABILITY:<span id="div"></span></span>
+</section>
+
+</main>
+</form>
+
+<section class="joedot" id="results">
+<hr/>
+
+
+<div class="box">
+<h3>Monday</h3>
+<div class="here" id="mmon1"> </div>
+<div class="here" id="mmon2"> </div>
+<div class="here" id="mmon3"> </div>
+<div class="here" id="mmon4"> </div>
+</div>
+
+<div class="box">
+<h3>Tuesday</h3>
+<div class="here" id="ttues1"> </div>
+<div class="here" id="ttues2"> </div>
+<div class="here" id="ttues3"> </div>
+<div class="here" id="ttues4"> </div>
+</div>
+
+<div class="box">
+<h3>Wednesday</h3>
+<div class="here" id="wwed1"> </div>
+<div class="here" id="wwed2"> </div>
+<div class="here" id="wwed3"> </div>
+<div class="here" id="wwed4"> </div>
+</div>
+
+<div class="box">
+<h3>Thursday</h3>
+<div class="here" id="tthur1"> </div>
+<div class="here" id="tthur2"> </div>
+<div class="here" id="tthur3"> </div>
+<div class="here" id="tthur4"> </div>
+</div>
+
+<div class="box">
+<h3>Friday</h3>
+<div class="here" id="ffri1"> </div>
+<div class="here" id="ffri2"> </div>
+<div class="here" id="ffri3"> </div>
+<div class="here" id="ffri4"> </div>
+</div>
+
+<div class="box">
+<h3>Saturday</h3>
+<div class="here" id="ssat1"> </div>
+<!-- <div class="here" id="ssat2"> </div>
+ --><div class="here" id="ssat2"> </div>
+<div class="here" id="ssat3"> </div>
+</div>
+
+<div class="box">
+<h3>Sunday</h3>
+<div class="here" id="ssun1"> </div>
+<!-- <div class="here" id="ssun2"> </div>
+ --><div class="here" id="ssun2"> </div>
+<div class="here" id="ssun3"> </div>
+</div>
+
+</section>
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
