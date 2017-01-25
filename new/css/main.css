@@ -154,8 +154,9 @@ h3 {
 
 .box .here{
 	height: 50px;
-	color: #3D424D;
-    border: 2px solid #7E91A1;
+/*	color: #3D424D;
+*/    border: 2px solid #7E91A1;
+color: purple;
 	border-radius: 3px;
     padding: 8px 5px;
     padding-bottom: 12px;
