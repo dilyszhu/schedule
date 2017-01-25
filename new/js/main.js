@@ -89,8 +89,8 @@ $('.h2').on('click', function(e){
 
   //   $('#submit').click(function(){
   //     for(var i=0; i<shiftsIcanWork.length; i++){
-var shift1=0;
-var shift2=0;
+// var shift1=0;
+// var shift2=0;
 
 $('#comment-form').on('submit', function(e){
   // e.preventDefault();
