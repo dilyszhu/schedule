@@ -32,6 +32,11 @@ body {
 button#hide {
 	border: none;
 	color: #f6f6f6;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	text-align-left: 0px;
+	font-size: 10px;
 }
 
 #hide {
