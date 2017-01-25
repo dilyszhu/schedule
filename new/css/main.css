@@ -24,6 +24,9 @@ body {
 	margin-top: 5px;
 }
 
+.hide {
+	visibility: hidden;
+}
 
 #joe {
 	height: 50px;
@@ -130,7 +133,6 @@ p {
 	margin-top: -20px;
 	padding-top: 20px;
 	padding-bottom: 50px;
-	visibility: hidden;
 }
 
 #results .box {
@@ -139,8 +141,6 @@ p {
 	display: inline-block;
 	padding: .1%;
 	float: left;
-		visibility: hidden;
-
 }
 
 h3 {
@@ -154,9 +154,8 @@ h3 {
 
 .box .here{
 	height: 50px;
-/*	color: #3D424D;
-*/    border: 2px solid #7E91A1;
-color: purple;
+	color: #3D424D;
+    border: 2px solid #7E91A1;
 	border-radius: 3px;
     padding: 8px 5px;
     padding-bottom: 12px;
@@ -169,8 +168,6 @@ color: purple;
 	margin: auto;
 	margin-top: 8px;
 	background-color: white;
-		visibility: hidden;
-
 }
 
 .here {
@@ -178,8 +175,6 @@ color: purple;
 	margin-left: 2%;
 	padding-bottom: 5px;
 	color: #978F7F;
-		visibility: hidden;
-
 }
 
 #aval {
