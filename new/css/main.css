@@ -24,11 +24,6 @@ body {
 	margin-top: 5px;
 }
 
-.hide {
-	visibility: hidden;
-		display: hidden;
-color: white;
-}
 
 #joe {
 	height: 50px;
@@ -135,6 +130,7 @@ p {
 	margin-top: -20px;
 	padding-top: 20px;
 	padding-bottom: 50px;
+	visibility: hidden;
 }
 
 #results .box {
