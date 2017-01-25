@@ -18,7 +18,7 @@ $('.shift').on('click', function(e){
 
 $('#hide').on('click', function(e){
   e.preventDefault();
-  $('#results').removeClass('hide');
+  $('#results').toggleClass('hide');
 });
 
 $('.mmc').on('click', function(e){
