@@ -287,18 +287,18 @@ var extra=$('#extra').val();
 var name=$('#name').val();
 var idNumber;
 
-if (name=="Dilys") {idNumber="Dilys"}
-if (name=="Ryan") {idNumber="Ryan"}
-if (name=="Brandon") {idNumber="Brandon"}
-if (name=="Shane") {idNumber="Shane"}
-if (name=="Kate") {idNumber="Kate"}
-if (name=="Jane") {idNumber="Jane"}
-if (name=="Jenn") {idNumber="Jenn"}
-if (name=="Natalie") {idNumber="Natalie"}
-if (name=="Florrie") {idNumber="Florrie"}
-if (name=="Alexis") {idNumber="Alexis"}
-if (name=="Alex") {idNumber="Alex"}
-if (name=="Maxwell") {idNumber="Maxwell"}
+// if (name=="Dilys") {idNumber="Dilys"}
+// if (name=="Ryan") {idNumber="Ryan"}
+// if (name=="Brandon") {idNumber="Brandon"}
+// if (name=="Shane") {idNumber="Shane"}
+// if (name=="Kate") {idNumber="Kate"}
+// if (name=="Jane") {idNumber="Jane"}
+// if (name=="Jenn") {idNumber="Jenn"}
+// if (name=="Natalie") {idNumber="Natalie"}
+// if (name=="Florrie") {idNumber="Florrie"}
+// if (name=="Alexis") {idNumber="Alexis"}
+// if (name=="Alex") {idNumber="Alex"}
+// if (name=="Maxwell") {idNumber="Maxwell"}
 
 
 
@@ -308,9 +308,9 @@ if (name=="Maxwell") {idNumber="Maxwell"}
 var commentsReference = database.ref('comments');
 
 commentsReference.push({
-  // name: name,
+  name: name,
   text: comment,
-  name:idNumber,
+  // name:idNumber,
   toconsider: extra,
 });
 
