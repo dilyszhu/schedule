@@ -192,7 +192,7 @@ $('#comment-form').on('submit', function(e){
   e.preventDefault();
 
   // $("#aval").html("AVAILABILITY ("+$('#date1').val()+"-"+$('#date2').val()+"):"+"<span id='div'></span>");
-  $("#aval").html("AVAILABILITY:"+"<span id='div'></span>");
+  $("#aval").html("AVAILABILITY (" + $('#name').val() + ":"+"<span id='div'></span>");
 
 
   $("#div").text('');
