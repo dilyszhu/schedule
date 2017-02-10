@@ -299,18 +299,7 @@ if (name=="Florrie") {idNumber="Florrie"}
 if (name=="Alexis") {idNumber="Alexis"}
 if (name=="Alex") {idNumber="Alex"}
 if (name=="Maxwell") {idNumber="Maxwell"}
-if (name=="dilys") {idNumber="Dilys"}
-if (name=="ryan") {idNumber="Ryan"}
-if (name=="brandon") {idNumber="Brandon"}
-if (name=="shane") {idNumber="Shane"}
-if (name=="kate") {idNumber="Kate"}
-if (name=="jane") {idNumber="Jane"}
-if (name=="jenn") {idNumber="Jenn"}
-if (name=="natalie") {idNumber="Natalie"}
-if (name=="florrie") {idNumber="Florrie"}
-if (name=="alexis") {idNumber="Alexis"}
-if (name=="alex") {idNumber="Alex"}
-if (name=="maxwell") {idNumber="Maxwell"}
+
 
 
 
