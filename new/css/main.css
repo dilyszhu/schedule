@@ -169,7 +169,7 @@ h3 {
 }
 
 .box .here{
-	height: 50px;
+	height: 20px;
 	color: #3D424D;
     border: 2px solid #7E91A1;
 	border-radius: 3px;
@@ -182,8 +182,8 @@ h3 {
     font-family: 'PT Sans', sans-serif;
     display: block;
 	margin: auto;
-	margin-top: 8px;
-	background-color: white;
+/*	margin-top: 8px;
+*/	background-color: white;
 }
 
 .here {
