@@ -28,7 +28,6 @@ body {
 	display: none;
 }
 
-
 button#hide {
 	border: none;
 	color: #f6f6f6;
@@ -39,11 +38,11 @@ button#hide {
 	font-size: 10px;
 }
 
-#hide {
+/*#hide {
 	padding-top: 20px;
 	margin-top: 20px;
 }
-
+*/
 #joe {
 	height: 50px;
 /*	text-align: center;
