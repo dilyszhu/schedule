@@ -24,6 +24,26 @@ body {
 	margin-top: 5px;
 }
 
+.hide {
+	display: none;
+}
+
+
+button#hide {
+	border: none;
+	color: #f6f6f6;
+	height: 30px;
+	width: 30px;
+	margin-left: 10px;
+	text-align-left: 0px;
+	font-size: 10px;
+}
+
+#hide {
+	padding-top: 50px;
+	margin-top: 50px;
+}
+
 #joe {
 	height: 50px;
 /*	text-align: center;
@@ -73,28 +93,6 @@ p.check {
 /*	padding-top: -20px;
 */}
 
-.hide {
-	display: none;
-}
-
-
-button#hide {
-	border: none;
-	color: #f6f6f6;
-	height: 30px;
-	width: 30px;
-	margin-left: 10px;
-	text-align-left: 0px;
-	font-size: 10px;
-}
-
-#hide {
-	padding-top: 50px;
-	margin-top: 50px;
-}
-
-
-
 button.mmc {
 	font-size: 16px;
 	border: none;
@@ -104,7 +102,6 @@ button.mmc {
 	color: #56392C;
 
 }
-
 button.mmc:hover {
 	border: none;
 	padding: 5px 0px;
