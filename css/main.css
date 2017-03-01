@@ -104,13 +104,13 @@ button.mmc {
 button.mmc:hover {
 	border: none;
 	padding: 5px 0px;
-	color: #83CEE2;
+	color: red;
 }
 
 button.mmc.yes {
 	border: none;
 	padding: 5px 0px;
-	color: #83CEE2;
+	color: red;
 }
 
 button.h2 {
