@@ -21,64 +21,65 @@ $('#hide').on('click', function(e){
   $('#results').toggleClass('hide');
 });
 
+
 $('.mmc').on('click', function(e){
   e.preventDefault();
   if ($(this).hasClass('early')){
-    $('.one').removeClass('yes');
+    $('.one').addClass('yes');
   };
   if ($(this).hasClass('late')){
-  $('.two').removeClass('yes');
+  $('.two').addClass('yes');
   };
   if ($(this).hasClass('mid')){
-    $('.three').removeClass('yes');
+    $('.three').addClass('yes');
   };
   if ($(this).hasClass('clos')){
-    $('.four').removeClass('yes');
+    $('.four').addClass('yes');
   };
 });
 
 $('.h2').on('click', function(e){
   e.preventDefault();
   if ($(this).hasClass('mon1')){
-    $('#mon1').removeClass('yes');
-    $('#mon2').removeClass('yes');
-    $('#mon3').removeClass('yes');
-    $('#mon4').removeClass('yes');
+    $('#mon1').addClass('yes');
+    $('#mon2').addClass('yes');
+    $('#mon3').addClass('yes');
+    $('#mon4').addClass('yes');
 
   };
   if ($(this).hasClass('tues1')){
-    $('#tues1').removeClass('yes');
-    $('#tues2').removeClass('yes');
-    $('#tues3').removeClass('yes');
-    $('#tues4').removeClass('yes');
+    $('#tues1').addClass('yes');
+    $('#tues2').addClass('yes');
+    $('#tues3').addClass('yes');
+    $('#tues4').addClass('yes');
   };
   if ($(this).hasClass('wed1')){
-    $('#wed1').removeClass('yes');
-    $('#wed2').removeClass('yes');
-    $('#wed3').removeClass('yes');
-    $('#wed4').removeClass('yes');
+    $('#wed1').addClass('yes');
+    $('#wed2').addClass('yes');
+    $('#wed3').addClass('yes');
+    $('#wed4').addClass('yes');
   };
   if ($(this).hasClass('thur1')){
-    $('#thur1').removeClass('yes');
-    $('#thur2').removeClass('yes');
-    $('#thur3').removeClass('yes');
-    $('#thur4').removeClass('yes');
+    $('#thur1').addClass('yes');
+    $('#thur2').addClass('yes');
+    $('#thur3').addClass('yes');
+    $('#thur4').addClass('yes');
   };
   if ($(this).hasClass('fri1')){
-    $('#fri1').removeClass('yes');
-    $('#fri2').removeClass('yes');
-    $('#fri3').removeClass('yes');
-    $('#fri4').removeClass('yes');
+    $('#fri1').addClass('yes');
+    $('#fri2').addClass('yes');
+    $('#fri3').addClass('yes');
+    $('#fri4').addClass('yes');
   };
   if ($(this).hasClass('sat1')){
-    $('#sat1').removeClass('yes');
-    $('#sat2').removeClass('yes');
-    $('#sat3').removeClass('yes');
+    $('#sat1').addClass('yes');
+    $('#sat2').addClass('yes');
+    $('#sat3').addClass('yes');
   };
   if ($(this).hasClass('sun1')){
-    $('#sun1').removeClass('yes');
-    $('#sun2').removeClass('yes');
-    $('#sun3').removeClass('yes');
+    $('#sun1').addClass('yes');
+    $('#sun2').addClass('yes');
+    $('#sun3').addClass('yes');
   };
 
 });

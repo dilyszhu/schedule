@@ -41,8 +41,8 @@ button#hide {
 /*#hide {
 	padding-top: 20px;
 	margin-top: 20px;
-}
-*/
+}*/
+
 #joe {
 	height: 50px;
 /*	text-align: center;
@@ -104,13 +104,13 @@ button.mmc {
 button.mmc:hover {
 	border: none;
 	padding: 5px 0px;
-	color: #83CEE2;
+	color: red;
 }
 
 button.mmc.yes {
 	border: none;
 	padding: 5px 0px;
-	color: #83CEE2;
+	color: red;
 }
 
 button.h2 {
@@ -126,7 +126,7 @@ button.h2:hover {
 	font-size: 22px;
 	border: none;
 	padding: 5px;
-	color: #83CEE2;
+	color: red;
 }
 
 p {
@@ -256,8 +256,8 @@ button.weekend {
 
 
 button:hover {
-	border: 2px solid #83CEE2;
-	color: #83CEE2;
+	border: 2px solid red;
+	color: red;
 }
 
 button.shift.yes {
