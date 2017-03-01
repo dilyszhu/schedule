@@ -117,7 +117,7 @@ button.h2 {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 24px;
 	border: none;
-	color: #56392C;
+	color: #83CEE2;
 	padding: 5px;
 
 }
@@ -126,7 +126,7 @@ button.h2:hover {
 	font-size: 22px;
 	border: none;
 	padding: 5px;
-	color: #83CEE2;
+	color: red;
 }
 
 p {
@@ -256,8 +256,8 @@ button.weekend {
 
 
 button:hover {
-	border: 2px solid #83CEE2;
-	color: #83CEE2;
+	border: 2px solid red;
+	color: red;
 }
 
 button.shift.yes {
